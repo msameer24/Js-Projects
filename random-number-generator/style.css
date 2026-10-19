@@ -1,0 +1,32 @@
+  body{
+            background-color: rgb(194, 219, 240);
+        }
+     .container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        
+     }
+
+     #btn{
+        height: 45px;
+        width: 80px;
+        font-size: 18px;
+        background-color: aliceblue;
+        border: 1px solid black;
+        border-radius: 50px;
+
+     }
+
+     #btn:hover{
+        cursor: pointer;
+     }
+     h1{
+        font-size: 28px;
+     }
+     h2{
+        font-size: 20px;
+     }
