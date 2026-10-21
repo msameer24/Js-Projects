@@ -10,7 +10,7 @@ button.addEventListener("click", ()=> {
   let greenNum  = Math.floor((Math.random()*256));
   let blueNum  = Math.floor((Math.random()*256));
 
-    heading2.textContent = `Color Code Is: rgb(${redNum}, ${greenNum}, ${blueNum}) `
+  heading2.textContent = `Color Code Is: rgb(${redNum}, ${greenNum}, ${blueNum}) `
   body.style.backgroundColor = `rgb(${redNum}, ${greenNum}, ${blueNum})`
 
 
