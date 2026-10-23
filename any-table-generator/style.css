@@ -1,0 +1,44 @@
+  body{
+            background-color: #ffffff;
+        }
+     .container{
+        height: 100vh;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        /* background-color: rgb(251, 12, 51); */
+        
+     }
+     form{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+     }
+
+     input{
+      height: 25px;
+      border-radius: 10px;
+     }
+
+     #btn{
+        height: 25px;
+        width: 80px;
+        font-size: 15px;
+        background-color: aliceblue;
+        border: 1px solid black;
+        border-radius: 50px;
+
+     }
+
+     #btn:hover{
+        cursor: pointer;
+     }
+     h1{
+        font-size: 28px;
+     }
+     h2{
+        font-size: 20px;
+     }
