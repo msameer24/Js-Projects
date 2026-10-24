@@ -12,9 +12,9 @@ form.addEventListener("submit", (e)=> {
 
 
   if(userInputValue%2  === 0){
-      heading2.textContent = `You Enter Even number which is ${userInputValue}`
+      heading2.textContent = `It's Even !! number is ${userInputValue}`
   } else{
-    heading2.textContent = `You Enter Odd number which is ${userInputValue}`
+    heading2.textContent = `It's Odd !! number is ${userInputValue}`
   }
    
   form.reset();

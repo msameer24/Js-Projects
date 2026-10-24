@@ -212,9 +212,8 @@ let heading2 = document.getElementById('heading2');
 
 button.addEventListener("click", ()=> {
   let randomQuote  = Math.floor((Math.random()*quotes.length));
-  console.log(randomQuote);
   
-  heading2.textContent = `Today Quote is : " ${quotes[randomQuote]} "`
+  heading2.textContent = `Today Quote is : ${quotes[randomQuote]} `
   
   
 })

@@ -3,53 +3,55 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: rgb(238, 240, 243);
+   background-color: #e9ebf0;
 }
 
 
 .container{
-      border: 1px solid black;
+      border: 1px solid #000000;
       border-radius: 10px;
       width: 550px;
-      /* box-shadow: 10px b; */
+      /* box-shadow: 10px ; */
       height: 350px;
-        display: flex;
-        /* justify-content: center; */
-        align-items: center;
-        flex-direction: column;
-        gap: 10px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
         
      }
 
-     #btn{
-        height: 45px;
-        width: 300px;
-        font-size: 18px;
-        color: white;
-        background-color: blueviolet;
-        border: 1px solid black;
-        border-radius: 10px;
+#btn{
+      height: 45px;
+      width: 300px;
+      font-size: 18px;
+      color: white;
+      background-color: #8a2be2;
+      border: 1px solid #000000;
+      border-radius: 10px;
+}
 
-     }
+   #btn:hover{
+      cursor: pointer;
+   }
+     
+   h1{
+      font-size: 28px;
+   }
+     
+   h2{
+      font-size: 20px;
+   }
 
-     #btn:hover{
-        cursor: pointer;
-     }
-     h1{
-        font-size: 28px;
-     }
-     h2{
-        font-size: 20px;
-     }
 
-
-     .result{
+   .result{
       margin: 20px;
       display: flex;
       align-items: center;
-      background-color: #e6e0e0;
+      background-color: #e9ebf0;
       width: 400px;
       border-radius: 10px;
       justify-content: center;
       height: 80px;
-     }
+   }
