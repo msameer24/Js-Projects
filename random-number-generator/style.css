@@ -1,10 +1,20 @@
   body{
-            background-color: rgb(194, 219, 240);
-        }
-     .container{
-        height: 100vh;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(238, 240, 243);
+}
+
+
+.container{
+      border: 1px solid black;
+      border-radius: 10px;
+      width: 550px;
+      /* box-shadow: 10px b; */
+      height: 350px;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         flex-direction: column;
         gap: 10px;
@@ -13,11 +23,12 @@
 
      #btn{
         height: 45px;
-        width: 80px;
+        width: 300px;
         font-size: 18px;
-        background-color: aliceblue;
+        color: white;
+        background-color: blueviolet;
         border: 1px solid black;
-        border-radius: 50px;
+        border-radius: 10px;
 
      }
 
@@ -29,4 +40,16 @@
      }
      h2{
         font-size: 20px;
+     }
+
+
+     .result{
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      background-color: #e6e0e0;
+      width: 400px;
+      border-radius: 10px;
+      justify-content: center;
+      height: 80px;
      }
